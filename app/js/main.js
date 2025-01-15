@@ -3,6 +3,7 @@ new Swiper ('.hero__inner', {
     autoplay: {
         delay: 5000,
     },
+    loop: true,
     speed: 1000,
     pagination: {
         el: '.swiper-pagination',
