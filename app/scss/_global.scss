@@ -72,3 +72,46 @@ h3 {
     line-height: 22px;
 }
 
+.no-hover  {
+
+    .collection__item {
+        background: hsla(0, 0%, 100%, .6);
+
+        &:hover {
+            background: transparent;
+            transition: none;
+        }
+        
+    }
+
+    .collection__item-title {
+        opacity: 1;
+    }
+
+    .collection__item-text {
+        opacity: 1;
+    }
+
+    .collection__big {
+        background: hsla(0, 0%, 100%, .6);
+
+        &:hover {
+            background: transparent;
+            transition: none;
+        }
+    }
+
+    .collection__big-title {
+        opacity: 1;
+    }
+
+    .collection__big-text {
+        opacity: 1;
+    }
+    
+}
+
+
+button {
+    cursor: pointer;
+}
